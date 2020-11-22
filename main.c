@@ -16,7 +16,7 @@ typedef int Board[ROWS][COLS];
 void populateBoard(Board board) {
 	for (int i = 0; i < ROWS; i++)
 		for (int j = 0; j < COLS; j++)
-         	board[i][j] = rand() % 2;  
+         		board[i][j] = rand() % 2;  
 }
 
 /** 
